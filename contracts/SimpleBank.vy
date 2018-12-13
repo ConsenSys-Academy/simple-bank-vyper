@@ -1,6 +1,8 @@
 #
 # It might be easier to write the Vyper contract at vyper.online to 
-# get syntax highlighting and easier compliation
+# get syntax highlighting and paste your complete contract here 
+
+# Vyper docs - https://vyper.readthedocs.io/en/latest/
 
 #
 # Events must be declared at the top of the file
@@ -65,6 +67,5 @@ def deposit() -> wei_value:
 
 @public
 def withdraw(withdrawAmount: wei_value) -> wei_value:
-    assert(withdrawAmount <= self.userBalances[msg.sender])
 
 # With no fallback function specified, a fallback is automatically generated that will revert any transaction that it processes. This is not the case in Solidity.
