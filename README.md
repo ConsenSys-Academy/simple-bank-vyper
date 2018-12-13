@@ -7,8 +7,15 @@ except we are going to write it with Vyper!
 
 To get started, make sure that you are using Truffle version 5.0. You can check which verison of Truffle you are using with `truffle version`. 
 
-If it is below version 5.0, run `npm uninstall -g truffle` and then `npm install -g truffle@5.0.0-beta.2
-`. Now `truffle version` should return at least version 5.0. 
+If it is below version 5.0, run 
+```
+npm uninstall -g truffle
+``` 
+and then 
+```
+npm install -g truffle@5.0.0-beta.2
+```
+Now `truffle version` should return at least version 5.0. 
 
 Even though we will not be using the Solidity compiler in this exercise, note that the Solidity compiler version is at least v0.5.0, which [comes with many breaking changes](https://solidity.readthedocs.io/en/latest/050-breaking-changes.html) when upgrading from Solidity version 0.4.x.
 
@@ -18,7 +25,11 @@ Then clone this repository to your machine. You will be working on completing th
 
 You need to install the Vyper compiler yourself for Truffle to be able to compile Vyper contracts.
 
-Installing Vyper on Linux is as simple as `sudo snap install vyper --edge --devmode`. Otherwise, [consult the docs](https://vyper.readthedocs.io/en/latest/installing-vyper.html).
+Installing Vyper on Linux is as simple as 
+```
+sudo snap install vyper --edge --devmode
+```
+Otherwise, [consult the docs](https://vyper.readthedocs.io/en/latest/installing-vyper.html).
 
 ## Run the tests
 
