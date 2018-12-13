@@ -7,7 +7,8 @@ except we are going to write it with Vyper!
 
 To get started, make sure that you are using Truffle version 5.0. You can check which verison of Truffle you are using with `truffle version`. 
 
-If it is below version 5.0, run `npm uninstall -g truffle` and then `sudo npm install -g truffle@beta`. Now `truffle version` should return at least version 5.0. 
+If it is below version 5.0, run `npm uninstall -g truffle` and then `sudo npm install -g truffle@5.0.0-beta.2
+`. Now `truffle version` should return at least version 5.0. 
 
 Also note that the Solidity compiler version is at least v0.5.0, which [comes with many breaking changes](https://solidity.readthedocs.io/en/latest/050-breaking-changes.html) when upgrading from Solidity version 0.4.x  
 
