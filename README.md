@@ -1,5 +1,7 @@
 # Writing Ethereum Smart Contracts in Vyper
 
+[Why Vyper?](https://vyper.readthedocs.io/en/latest/index.html#principles-and-goals)
+
 In this exercise we are going to work on writing a simple bank
 contract similar to the one in this
 [repository](https://github.com/ConsenSys-Academy/simple-bank-exercise),
