@@ -15,8 +15,6 @@ DepositMade: event ({ })
 
 # Declare an event called 'Withdrawal' that logs an accountAddress, withdrawAmount, and the new balance of the account
 
-
-
 #
 # State variables
 # https://vyper.readthedocs.io/en/latest/structure-of-a-contract.html#state-variables
