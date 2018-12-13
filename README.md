@@ -31,6 +31,10 @@ sudo snap install vyper --edge --devmode
 ```
 Otherwise, [consult the docs](https://vyper.readthedocs.io/en/latest/installing-vyper.html).
 
+## Compile the contract
+
+Create the truffle artifacts by running `truffle compile`. I was having trouble with the Vyper contract recompiling when there was already an artifact in the ./build directory, but deleting the ./build directory and then compiling solved this.
+
 ## Run the tests
 
 Make sure a development blockchain (like ganache) is running on port 8545 and run the tests with `truffle test`.
