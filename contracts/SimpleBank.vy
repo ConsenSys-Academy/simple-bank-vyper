@@ -1,4 +1,6 @@
 # Objective: Implement the missing parts of the contract
+# The contract is missing event information, state variables and functions bodies
+
 # It might be easier to write the Vyper contract at vyper.online to 
 # get syntax highlighting and paste your complete contract here 
 
