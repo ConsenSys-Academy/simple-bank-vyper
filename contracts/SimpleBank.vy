@@ -1,4 +1,4 @@
-#
+# Objective: Implement the missing parts of the contract
 # It might be easier to write the Vyper contract at vyper.online to 
 # get syntax highlighting and paste your complete contract here 
 
@@ -6,7 +6,7 @@
 
 #
 # Events must be declared at the top of the file
-#
+# https://vyper.readthedocs.io/en/latest/logging.html
 
 Enrolled: event({ accountAddress: indexed(address)  })
 
@@ -19,7 +19,7 @@ DepositMade: event ({ })
 
 #
 # State variables
-#
+# https://vyper.readthedocs.io/en/latest/structure-of-a-contract.html#state-variables
 
 # Declare 3 state varaibles: 
 # - userBalances (a public mapping of address to integer)
@@ -28,7 +28,7 @@ DepositMade: event ({ })
 
 #
 # Functions
-#
+# https://vyper.readthedocs.io/en/latest/structure-of-a-contract.html#functions
 
 # @notice set the contract creator as the owner
 
