@@ -40,15 +40,3 @@ Create the truffle artifacts by running `truffle compile`. I was having trouble 
 ## Run the tests
 
 Make sure a development blockchain (like ganache) is running on port 8545 and run the tests with `truffle test`.
-
-## Clean up
-
-You will probably want to revert back to the latest stable version of truffle after you complete this exercise. To do so, run
-```
-npm uninstall -g truffle
-```
-to remove the beta version from your machine, followed by
-```
-npm install -g truffle
-```
-to reinstall the latest stable version.
