@@ -15,7 +15,7 @@ npm uninstall -g truffle
 ``` 
 and then 
 ```
-npm install -g truffle@5.0.0-beta.2
+npm install -g truffle
 ```
 Now `truffle version` should return at least version 5.0. 
 
